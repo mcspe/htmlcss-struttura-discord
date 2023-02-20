@@ -76,6 +76,46 @@ header .jumbothron .container div{
 }
 /* /header */
 
+/* main */
+main section div{
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*main section:last-child{
+  height: 600px;
+}*/
+
+main section:nth-child(even){
+  background-color: lightgrey;
+}
+
+main section div .image{
+  height: 400px;
+  background-color: lightseagreen;
+  flex-grow: 4;
+}
+
+main section div .text{
+  height: 400px;
+  background-color: pink;
+  flex-grow: 2;
+}
+
+main section:nth-child(even) .image{
+  order: 1;
+}
+
+main section div .greenbox{
+  height: 800px;
+  width: 100%;
+  background-color: green;
+}
+
+/* /main */
+
 
 
 
