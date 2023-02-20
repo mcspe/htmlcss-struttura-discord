@@ -26,7 +26,6 @@ header .top-bar{
 
 header .top-bar .top-content{
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-between;
   background-color: chocolate;
 }
@@ -34,10 +33,12 @@ header .top-bar .top-content{
 header .top-bar .top-content .logo,
 header .top-bar .top-content .login{
   width: 15%;
+  padding: 5px;
 }
 
 header .top-bar .top-content .nav{
   width: 70%;
+  padding: 5px;
 }
 
 header .top-bar .top-content .nav ul{
@@ -52,6 +53,15 @@ header .top-bar .top-content nav ul li{
 
 header .top-bar .top-content nav ul li:last-child{
   margin-right: none;
+}
+
+header .top-bar .top-content nav ul li a{
+  text-decoration: none;
+  color: black;
+}
+
+header .top-bar .top-content nav ul li a:hover{
+  text-decoration: underline;
 }
 
 header .top-bar .top-content .login{
