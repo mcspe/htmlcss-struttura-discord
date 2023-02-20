@@ -15,6 +15,10 @@ body{
   margin: auto;
 }
 
+.element{
+  border: 3px dashed black;
+}
+
 /* header */
 header .top-bar{
   height: 80px;
@@ -28,10 +32,6 @@ header .top-bar .top-content{
   flex-wrap: wrap;
   justify-content: space-between;
   background-color: chocolate;
-}
-
-header .top-bar .top-content .top{
-  border: 2px dotted black;
 }
 
 header .top-bar .top-content .logo,
@@ -71,9 +71,8 @@ header .jumbothron{
 
 header .jumbothron .container div{
   background-color: palevioletred;
-  margin: 25px 50px;
+  margin: 0 50px;
   height: 250px;
-  border: 2px dotted black;
 }
 /* /header */
 
