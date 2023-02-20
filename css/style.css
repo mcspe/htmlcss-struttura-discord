@@ -5,12 +5,9 @@
 }
 
 /* regole generali */
-body{
-  padding-bottom: 50px;
-}
-
 .container{
   min-width: 600px;
+  max-width: 1500px;
   width: 80%;
   margin: auto;
 }
@@ -78,15 +75,11 @@ header .jumbothron .container div{
 
 /* main */
 main section div{
-  padding: 50px;
+  padding: 50px 0;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-
-/*main section:last-child{
-  height: 600px;
-}*/
 
 main section:nth-child(even){
   background-color: lightgrey;
@@ -108,13 +101,56 @@ main section:nth-child(even) .image{
   order: 1;
 }
 
-main section div .greenbox{
+main section div .recbox{
   height: 800px;
   width: 100%;
   background-color: green;
 }
-
 /* /main */
+
+/* /footer */
+footer{
+  background-color: darkslategrey;
+}
+
+footer section{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 0 20px;
+}
+
+footer section .first{
+  flex-grow: 1;
+  background-color: hotpink;
+  height: 600px;
+}
+
+footer section .second{
+  flex-grow: 2;
+  display: flex;
+  background-color: darkcyan;
+  height: 600px;
+}
+
+footer section .second .last-nav{
+  border: 2px dashed white;
+  flex-grow: 1;
+}
+
+footer section:last-child{
+  background-color: cyan;
+  height: 80px;
+  padding: 0;
+  margin-top: 20px;
+}
+
+footer section:last-child .bottom{
+  padding: 5px 10px;
+  background-color: lightsteelblue;
+}
+/* /footer */
+
 
 
 
