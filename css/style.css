@@ -5,8 +5,12 @@
 }
 
 /* regole generali */
+body{
+  padding-bottom: 50px;
+}
+
 .container{
-  min-width: 800px;
+  min-width: 600px;
   width: 80%;
   margin: auto;
 }
@@ -56,6 +60,23 @@ header .top-bar .top-content nav ul li:last-child{
 header .top-bar .top-content .login{
   text-align: right;
 }
+
+header .jumbothron{
+  height: 300px;
+  background-color: blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header .jumbothron .container div{
+  background-color: palevioletred;
+  margin: 25px 50px;
+  height: 250px;
+  border: 2px dotted black;
+}
+/* /header */
+
 
 
 
