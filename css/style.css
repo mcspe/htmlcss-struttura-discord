@@ -12,7 +12,7 @@
   margin: auto;
 }
 
-.element{
+.border{
   border: 3px dashed black;
 }
 
@@ -36,12 +36,12 @@ header .top-bar .top-content .login{
   padding: 5px;
 }
 
-header .top-bar .top-content .nav{
+header .top-bar .top-content nav{
   width: 70%;
   padding: 5px;
 }
 
-header .top-bar .top-content .nav ul{
+header .top-bar .top-content nav ul{
   display: flex;
   justify-content: center;
 }
